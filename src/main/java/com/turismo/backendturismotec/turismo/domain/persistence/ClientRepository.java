@@ -1,4 +1,9 @@
 package com.turismo.backendturismotec.turismo.domain.persistence;
 
-public interface ClientRepository {
+import com.turismo.turismoapi.turismo.domain.model.entity.Client;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface ClientRepository extends JpaRepository<Client,Long> {
 }

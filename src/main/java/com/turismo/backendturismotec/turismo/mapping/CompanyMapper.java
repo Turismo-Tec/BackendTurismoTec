@@ -1,10 +1,6 @@
-package com.turismo.turismoapi.turismo.mapping;
+package com.turismo.backendturismotec.turismo.mapping;
 
-import com.turismo.turismoapi.shared.mapping.EnhanceModelMapper;
 import com.turismo.turismoapi.turismo.domain.model.entity.Companies;
-import com.turismo.turismoapi.turismo.resources.company.CompanyResource;
-import com.turismo.turismoapi.turismo.resources.company.CreateCompanyResource;
-import com.turismo.turismoapi.turismo.resources.company.UpdateCompanyResource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageImpl;

@@ -1,7 +1,5 @@
-package com.turismo.turismoapi.turismo.mapping;
+package com.turismo.backendturismotec.turismo.mapping;
 
-import com.turismo.turismoapi.turismo.domain.model.entity.Client;
-import com.turismo.turismoapi.turismo.domain.model.entity.Companies;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -13,6 +11,4 @@ public class MappingConfiguration {
     }
     @Bean
     public CompanyMapper companyMapper() { return new CompanyMapper(); }
-    @Bean
-    public PackageMapper packageMapperMapper() { return new PackageMapper(); }
 }

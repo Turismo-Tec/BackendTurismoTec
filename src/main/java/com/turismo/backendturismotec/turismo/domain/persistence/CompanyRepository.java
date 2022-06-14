@@ -1,4 +1,4 @@
-package com.turismo.turismoapi.turismo.domain.persistence;
+package com.turismo.backendturismotec.turismo.domain.persistence;
 
 import com.turismo.turismoapi.turismo.domain.model.entity.Companies;
 import org.springframework.data.jpa.repository.JpaRepository;

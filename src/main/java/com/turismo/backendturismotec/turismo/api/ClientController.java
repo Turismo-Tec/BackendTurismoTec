@@ -1,10 +1,6 @@
 package com.turismo.backendturismotec.turismo.api;
 
-import com.turismo.turismoapi.turismo.domain.service.ClientService;
-import com.turismo.turismoapi.turismo.mapping.ClientMapper;
 import com.turismo.turismoapi.turismo.resources.client.ClientResource;
-import com.turismo.turismoapi.turismo.resources.client.CreateClientResource;
-import com.turismo.turismoapi.turismo.resources.client.UpdateClientResource;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.data.domain.Page;

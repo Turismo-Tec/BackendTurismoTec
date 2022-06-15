@@ -1,17 +1,16 @@
-package com.turismo.backendturismotec.turismo.resources.client;
+package com.turismo.backendturismotec.turismo.api;
 
-import com.turismo.turismoapi.turismo.domain.service.CompanyService;
-import com.turismo.turismoapi.turismo.mapping.CompanyMapper;
-import com.turismo.turismoapi.turismo.resources.company.CompanyResource;
-import com.turismo.turismoapi.turismo.resources.company.CreateCompanyResource;
-import com.turismo.turismoapi.turismo.resources.company.UpdateCompanyResource;
+import com.turismo.backendturismotec.turismo.domain.service.CompanyService;
+import com.turismo.backendturismotec.turismo.mapping.CompanyMapper;
+import com.turismo.backendturismotec.turismo.resources.company.CompanyResource;
+import com.turismo.backendturismotec.turismo.resources.company.CreateCompanyResource;
+import com.turismo.backendturismotec.turismo.resources.company.UpdateCompanyResource;
+import org.springframework.data.domain.Page;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
 
 @RestController
 @RequestMapping("api/v1/companies")

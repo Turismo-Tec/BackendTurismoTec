@@ -1,5 +1,7 @@
 package com.turismo.backendturismotec.turismo.resources.services;
 
+import com.turismo.backendturismotec.shared.exceptions.ResourceNotFoundException;
+import com.turismo.backendturismotec.shared.exceptions.ResourceValidationException;
 import com.turismo.backendturismotec.turismo.domain.model.entity.Client;
 import com.turismo.backendturismotec.turismo.domain.persistence.ClientRepository;
 import com.turismo.backendturismotec.turismo.domain.service.ClientService;

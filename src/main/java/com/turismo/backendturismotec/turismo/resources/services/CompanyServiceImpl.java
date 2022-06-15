@@ -2,8 +2,10 @@ package com.turismo.backendturismotec.turismo.resources.services;
 
 import com.turismo.backendturismotec.shared.exceptions.ResourceNotFoundException;
 import com.turismo.backendturismotec.shared.exceptions.ResourceValidationException;
+import com.turismo.backendturismotec.turismo.domain.model.entity.Companies;
 import com.turismo.backendturismotec.turismo.domain.persistence.CompanyRepository;
 import com.turismo.backendturismotec.turismo.domain.service.CompanyService;
+
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
@@ -14,7 +16,6 @@ import java.util.Set;
 
 @Service
 public class CompanyServiceImpl implements CompanyService {
-
     private static final String ENTITY = "Companies";
     private final CompanyRepository companyRepository;
     private final Validator validator;
@@ -25,19 +26,19 @@ public class CompanyServiceImpl implements CompanyService {
     }
 
     @Override
-    public List<com.turismo.turismoapi.turismo.domain.model.entity.Companies> getAll() {
+    public List<Companies> getAll() {
         return companyRepository.findAll();
     }
 
     @Override
-    public com.turismo.turismoapi.turismo.domain.model.entity.Companies getById(Long companyId) {
+    public Companies getById(Long companyId) {
         return companyRepository.findById(companyId)
                 .orElseThrow(() -> new ResourceNotFoundException(ENTITY, companyId));
     }
 
     @Override
-    public com.turismo.turismoapi.turismo.domain.model.entity.Companies create(com.turismo.turismoapi.turismo.domain.model.entity.Companies company) {
-        Set<ConstraintViolation<com.turismo.turismoapi.turismo.domain.model.entity.Companies>> violations = validator.validate(company);
+    public Companies create(Companies company) {
+        Set<ConstraintViolation<Companies>> violations = validator.validate(company);
 
         if (!violations.isEmpty())
             throw new ResourceValidationException(ENTITY, violations);
@@ -46,8 +47,8 @@ public class CompanyServiceImpl implements CompanyService {
     }
 
     @Override
-    public com.turismo.turismoapi.turismo.domain.model.entity.Companies update(Long id, com.turismo.turismoapi.turismo.domain.model.entity.Companies request) {
-        Set<ConstraintViolation<com.turismo.turismoapi.turismo.domain.model.entity.Companies>> violations = validator.validate(request);
+    public Companies update(Long id, Companies request) {
+        Set<ConstraintViolation<Companies>> violations = validator.validate(request);
 
         if (!violations.isEmpty())
             throw new ResourceValidationException(ENTITY, violations);

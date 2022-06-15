@@ -1,6 +1,6 @@
 package com.turismo.backendturismotec.turismo.domain.service;
 
-import com.turismo.turismoapi.turismo.domain.model.entity.Companies;
+import com.turismo.backendturismotec.turismo.domain.model.entity.Companies;
 import org.springframework.http.ResponseEntity;
 
 import java.util.List;

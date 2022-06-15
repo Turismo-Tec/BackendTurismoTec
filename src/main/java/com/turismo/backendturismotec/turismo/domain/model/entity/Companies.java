@@ -1,4 +1,4 @@
-package com.turismo.turismoapi.turismo.domain.model.entity;
+package com.turismo.backendturismotec.turismo.domain.model.entity;
 
 import lombok.*;
 

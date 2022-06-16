@@ -2,9 +2,9 @@ package com.turismo.backendturismotec.turismo.api;
 
 import com.turismo.backendturismotec.turismo.domain.service.ClientService;
 import com.turismo.backendturismotec.turismo.mapping.ClientMapper;
+import com.turismo.backendturismotec.turismo.resources.client.ClientResource;
 import com.turismo.backendturismotec.turismo.resources.client.CreateClientResource;
 import com.turismo.backendturismotec.turismo.resources.client.UpdateClientResource;
-import com.turismo.turismoapi.turismo.resources.client.ClientResource;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.data.domain.Page;

@@ -45,5 +45,4 @@ public class Client {
     @NotNull
     @NotBlank
     private String password;
-  
 }

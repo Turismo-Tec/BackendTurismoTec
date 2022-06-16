@@ -1,4 +1,4 @@
-package com.turismo.turismoapi.turismo.resources.client;
+package com.turismo.backendturismotec.turismo.resources.client;
 
 import lombok.*;
 

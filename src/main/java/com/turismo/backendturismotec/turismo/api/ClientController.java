@@ -15,7 +15,6 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("api/v1/clients")
 public class ClientController {
-  
    private final ClientService clientService;
     private final ClientMapper mapper;
 
@@ -51,3 +50,7 @@ public class ClientController {
     }
   
 }
+
+
+
+

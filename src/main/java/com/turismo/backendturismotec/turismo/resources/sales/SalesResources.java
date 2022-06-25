@@ -1,4 +1,12 @@
 package com.turismo.backendturismotec.turismo.resources.sales;
 
+import lombok.*;
+
+@Setter
+@Getter
+@With
+@NoArgsConstructor
+@AllArgsConstructor
 public class SalesResources {
+  private String date;
 }

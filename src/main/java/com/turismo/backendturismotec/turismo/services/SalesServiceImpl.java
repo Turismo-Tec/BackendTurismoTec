@@ -2,13 +2,9 @@ package com.turismo.backendturismotec.turismo.services;
 
 import com.turismo.backendturismotec.shared.exceptions.ResourceNotFoundException;
 import com.turismo.backendturismotec.shared.exceptions.ResourceValidationException;
-import com.turismo.backendturismotec.shared.mapping.EnhanceModelMapper;
 import com.turismo.backendturismotec.turismo.domain.model.entity.Sales;
 import com.turismo.backendturismotec.turismo.domain.persistence.SaleRepository;
 import com.turismo.backendturismotec.turismo.domain.service.SaleService;
-import com.turismo.backendturismotec.turismo.resources.sales.CreateSalesResources;
-import com.turismo.backendturismotec.turismo.resources.sales.SalesResources;
-import com.turismo.backendturismotec.turismo.resources.sales.UpdateSalesResources;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 

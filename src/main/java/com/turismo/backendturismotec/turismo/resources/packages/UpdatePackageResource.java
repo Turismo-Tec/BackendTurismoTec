@@ -1,7 +1,6 @@
 package com.turismo.backendturismotec.turismo.resources.packages;
 
 import lombok.*;
-
 @Getter
 @Setter
 @With

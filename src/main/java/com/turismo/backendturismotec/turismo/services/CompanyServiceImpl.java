@@ -1,4 +1,4 @@
-package com.turismo.backendturismotec.turismo.resources.services;
+package com.turismo.backendturismotec.turismo.services;
 
 import com.turismo.backendturismotec.shared.exceptions.ResourceNotFoundException;
 import com.turismo.backendturismotec.shared.exceptions.ResourceValidationException;

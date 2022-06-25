@@ -1,6 +1,6 @@
-package com.turismo.turismoapi.turismo.domain.persistence;
+package com.turismo.backendturismotec.turismo.domain.persistence;
 
-import com.turismo.turismoapi.turismo.domain.model.entity.Packages;
+import com.turismo.backendturismotec.turismo.domain.model.entity.Packages;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

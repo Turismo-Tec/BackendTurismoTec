@@ -1,10 +1,10 @@
 package com.turismo.backendturismotec.turismo.mapping;
 
-import com.turismo.turismoapi.shared.mapping.EnhanceModelMapper;
-import com.turismo.turismoapi.turismo.domain.model.entity.Packages;
-import com.turismo.turismoapi.turismo.resources.packages.CreatePackageResource;
-import com.turismo.turismoapi.turismo.resources.packages.PackageResource;
-import com.turismo.turismoapi.turismo.resources.packages.UpdatePackageResource;
+import com.turismo.backendturismotec.shared.mapping.EnhanceModelMapper;
+import com.turismo.backendturismotec.turismo.domain.model.entity.Packages;
+import com.turismo.backendturismotec.turismo.resources.packages.CreatePackageResource;
+import com.turismo.backendturismotec.turismo.resources.packages.PackageResource;
+import com.turismo.backendturismotec.turismo.resources.packages.UpdatePackageResource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageImpl;

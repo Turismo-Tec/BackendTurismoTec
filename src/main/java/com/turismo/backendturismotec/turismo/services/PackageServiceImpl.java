@@ -1,10 +1,10 @@
-package com.turismo.turismoapi.turismo.services;
+package com.turismo.backendturismotec.turismo.services;
 
-import com.turismo.turismoapi.shared.exceptions.ResourceNotFoundException;
-import com.turismo.turismoapi.shared.exceptions.ResourceValidationException;
-import com.turismo.turismoapi.turismo.domain.model.entity.Packages;
-import com.turismo.turismoapi.turismo.domain.persistence.PackageRepository;
-import com.turismo.turismoapi.turismo.domain.service.PackageService;
+import com.turismo.backendturismotec.shared.exceptions.ResourceNotFoundException;
+import com.turismo.backendturismotec.shared.exceptions.ResourceValidationException;
+import com.turismo.backendturismotec.turismo.domain.model.entity.Packages;
+import com.turismo.backendturismotec.turismo.domain.persistence.PackageRepository;
+import com.turismo.backendturismotec.turismo.domain.service.PackageService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 

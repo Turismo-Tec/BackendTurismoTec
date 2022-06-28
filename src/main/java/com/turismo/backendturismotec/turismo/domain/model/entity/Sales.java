@@ -18,9 +18,12 @@ public class Sales {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    //Package
-
     @NotNull
     @NotBlank
     private String date;
+    
+    @ManyToOne
+    @JoinColumn(name = "packageId", nullable = false)
+    @JsonIgnore
+    private Packages packagesId;
 }

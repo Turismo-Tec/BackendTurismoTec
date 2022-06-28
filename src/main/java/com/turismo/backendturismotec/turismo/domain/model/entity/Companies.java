@@ -1,5 +1,6 @@
 package com.turismo.backendturismotec.turismo.domain.model.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.*;
 
 import javax.persistence.*;
@@ -30,5 +31,4 @@ public class Companies {
     @NotNull
     @NotBlank
     private String description;
-
 }

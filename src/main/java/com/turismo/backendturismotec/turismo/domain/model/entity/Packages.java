@@ -1,5 +1,6 @@
 package com.turismo.backendturismotec.turismo.domain.model.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.*;
 
 import javax.persistence.*;
@@ -29,8 +30,8 @@ public class Packages {
     @NotNull
     @NotBlank
     private String description;
-    
-     @ManyToOne
+
+    @ManyToOne
     @JoinColumn(name = "companyId", nullable = false)
     @JsonIgnore
     private Companies companyId;
@@ -39,4 +40,5 @@ public class Packages {
     @JoinColumn(name = "clientId", nullable = false)
     @JsonIgnore
     private Client clientId;
+
 }

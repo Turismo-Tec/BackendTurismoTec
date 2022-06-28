@@ -1,5 +1,6 @@
 package com.turismo.backendturismotec.turismo.domain.model.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.*;
 
 import javax.persistence.*;
@@ -21,7 +22,7 @@ public class Sales {
     @NotNull
     @NotBlank
     private String date;
-    
+
     @ManyToOne
     @JoinColumn(name = "packageId", nullable = false)
     @JsonIgnore

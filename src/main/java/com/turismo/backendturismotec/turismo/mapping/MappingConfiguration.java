@@ -13,4 +13,7 @@ public class MappingConfiguration {
     public CompanyMapper companyMapper() { return new CompanyMapper(); }
     @Bean
     public PackageMapper packageMapper() { return new PackageMapper(); }
+
+    @Bean
+    public SalesMapper salesMapper() { return new SalesMapper(); }
 }

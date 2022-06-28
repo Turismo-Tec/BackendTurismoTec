@@ -29,5 +29,14 @@ public class Packages {
     @NotNull
     @NotBlank
     private String description;
+    
+     @ManyToOne
+    @JoinColumn(name = "companyId", nullable = false)
+    @JsonIgnore
+    private Companies companyId;
 
+    @ManyToOne
+    @JoinColumn(name = "clientId", nullable = false)
+    @JsonIgnore
+    private Client clientId;
 }
